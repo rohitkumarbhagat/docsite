@@ -1,0 +1,463 @@
+{
+  "version": 1,
+  "skill_name": "data-commons-dev",
+  "raw_root": "references/raw",
+  "authoritative_index": "references/scenario-index.md",
+  "entries": [
+    {
+      "scenario": "api",
+      "source": "api/index.md",
+      "dest": "references/raw/api/index.md",
+      "title": "API - Query data programmatically",
+      "sha256": "d9d8ddf04f1c64f2df2ee56693d78f48b25e8d6a13dc854f3947826a12970784"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/api_key.md",
+      "dest": "references/raw/api/python/api_key.md",
+      "title": "Set API Key",
+      "sha256": "3aa48d81a354741c0bfab06d91aa991dc700efdbfdded541366234cc3370353f"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/index.md",
+      "dest": "references/raw/api/python/index.md",
+      "title": "Python (V1)",
+      "sha256": "25b94caf9cca42262114d0129c6bac885af9b37795266d68964ab2b814836d81"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/index.md",
+      "dest": "references/raw/api/python/v2/index.md",
+      "title": "Python (V2)",
+      "sha256": "1d1b3457ccca40cb4fdf6ea06e62fb9c4799250a9f3c10ab66cd4be36bbdcde4"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/migration.md",
+      "dest": "references/raw/api/python/v2/migration.md",
+      "title": "Migrate from V1 to V2",
+      "sha256": "11275fa1777e04ccda7483bc85be807d310f4a8767cc77da0b1a25beeffef6fe"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/node.md",
+      "dest": "references/raw/api/python/v2/node.md",
+      "title": "Get node properties",
+      "sha256": "0c742f48411447186e791fe5a878c44c34790d00fbf324beba951529cc8c0554"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/observation.md",
+      "dest": "references/raw/api/python/v2/observation.md",
+      "title": "Get statistical observations",
+      "sha256": "b8d9249f806c779d97149318895690c5e316a1b9e54d2021df6aa3eebe28d769"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/pandas.md",
+      "dest": "references/raw/api/python/v2/pandas.md",
+      "title": "Get statistical observations as Pandas DataFrames",
+      "sha256": "ab20e01e0839997d95c4ca880f634c4298434e008b9cbd72a10fc4a5cb67ab18"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/resolve.md",
+      "dest": "references/raw/api/python/v2/resolve.md",
+      "title": "Resolve entities",
+      "sha256": "a520d582ae193a2f4e38b7b05fc4acd0fcab881217613c10ed82e4f2ac663bff"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/tutorials.md",
+      "dest": "references/raw/api/python/v2/tutorials.md",
+      "title": "Tutorials",
+      "sha256": "a11e358a0a2c7b7f11e683a8b86ceb179d373285d08833ac2bdf000da28a7e02"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/index.md",
+      "dest": "references/raw/api/rest/v2/index.md",
+      "title": "REST (V2)",
+      "sha256": "35f300ce4cfd96f8e12d70a3f6b261623be7fc787053d2fc42685ca4b49d4446"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/migration.md",
+      "dest": "references/raw/api/rest/v2/migration.md",
+      "title": "Migrate from V1 to V2",
+      "sha256": "8fe07935b600c16f96bd20a9e38c6436c7e08a29c5fcf064e08f71dcec63b875"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/node.md",
+      "dest": "references/raw/api/rest/v2/node.md",
+      "title": "Get node properties",
+      "sha256": "c2ec0215b313e056c9b5173f1f282962174afc5eac4e2503067b8ce47f962365"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/observation.md",
+      "dest": "references/raw/api/rest/v2/observation.md",
+      "title": "Get statistical observations",
+      "sha256": "fa7e5056458ffedbe220eaceafda9f44d5a1b8659605ec533d22d9b4c3924597"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/resolve.md",
+      "dest": "references/raw/api/rest/v2/resolve.md",
+      "title": "Resolve entities",
+      "sha256": "df16b0b3c665e30244ee62db03a21d454533fdeb770cb1abd1ad4eef0fcbe3d8"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/troubleshooting.md",
+      "dest": "references/raw/api/rest/v2/troubleshooting.md",
+      "title": "Troubleshooting",
+      "sha256": "ae997b0e4287b4c9d4426c47bd191a89a4b048ef2c659d3757794e7d3fccb345"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/get_name.md",
+      "dest": "references/raw/api/sheets/get_name.md",
+      "title": "Get names associated with DCIDs",
+      "sha256": "0e213e647a40bbee2bc93067c380f52773e6e0b3ebf5ba579785eb10a5a221ac"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/get_property.md",
+      "dest": "references/raw/api/sheets/get_property.md",
+      "title": "Get node property values",
+      "sha256": "3c89ced3009deeead86bdb93f5d3f82f6be3fb40def6e48937bff48ee71ec0f6"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/get_variable.md",
+      "dest": "references/raw/api/sheets/get_variable.md",
+      "title": "Get statistical variable values",
+      "sha256": "ae60431f755fc52d7a00df1f980d26d1676230f5db1fd515f13ff938f4b6f912"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/index.md",
+      "dest": "references/raw/api/sheets/index.md",
+      "title": "Analyze data with Google Sheets",
+      "sha256": "02fb81becd65cd2f244247e0d45f4f715bb7429bccf3bc92477dc632c20634c9"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/places_in.md",
+      "dest": "references/raw/api/sheets/places_in.md",
+      "title": "Get places contained in another place",
+      "sha256": "14b8ef30c36e1a56f600c03f198ca293f08d878d24f7084b1e626775944f84a2"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/tutorials/index.md",
+      "dest": "references/raw/api/sheets/tutorials/index.md",
+      "title": "Tutorials",
+      "sha256": "6b64338db7092a4563f27aca5f7547419cb393445c1a6d37116ff84e7282e9e1"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/tutorials/sheets_covid.md",
+      "dest": "references/raw/api/sheets/tutorials/sheets_covid.md",
+      "title": "Sheets COVID-19 analysis",
+      "sha256": "aae711109e69c533c27e5959190cad378b6670b824981e8450471a26b7f947b9"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/tutorials/sheets_latitude.md",
+      "dest": "references/raw/api/sheets/tutorials/sheets_latitude.md",
+      "title": "Sheets South American latitudes",
+      "sha256": "c3ed717493bea90a96371c487017a056e24e5defc75e14fd8db1c7a9c7dac57d"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/bar.md",
+      "dest": "references/raw/api/web_components/bar.md",
+      "title": "Bar chart",
+      "sha256": "b90559951fd8fb9906390d18815760b2b6659482be9bd140989c6284c8991fd4"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/examples/all-charts.md",
+      "dest": "references/raw/api/web_components/examples/all-charts.md",
+      "title": "All Charts - Web Components Example",
+      "sha256": "7e1dbd5549464af3557fce834cd2c8794e5cf1cf2e901a6751137268e0aa9c0c"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/examples/dynamic-map.md",
+      "dest": "references/raw/api/web_components/examples/dynamic-map.md",
+      "title": "Dynamic Map - Web Components Example",
+      "sha256": "ac33d9c035e8240049e73d16b80d1ab3f6047568f8784bc09b1c29ee4c601fc2"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/examples/line-chart.md",
+      "dest": "references/raw/api/web_components/examples/line-chart.md",
+      "title": "Line Chart - Web Components Example",
+      "sha256": "cff78c46aa665a71f1bcb7269ee511fc8d1cb41d9a431b4f581935830362f88e"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/examples/map-styles.md",
+      "dest": "references/raw/api/web_components/examples/map-styles.md",
+      "title": "Map Styles - Web Components Example",
+      "sha256": "0f59631747455c2b275358fa31aee3c8d5d799cfde64115add4b1319edeb1256"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/gauge.md",
+      "dest": "references/raw/api/web_components/gauge.md",
+      "title": "Gauge chart",
+      "sha256": "d94eae7b69f62f645cea04a9f9d1710e3da6e773d87ddf6dcb69b4875492b501"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/highlight.md",
+      "dest": "references/raw/api/web_components/highlight.md",
+      "title": "Highlight tile",
+      "sha256": "554e323dae46967293d58349d4e3a70aa69a9a6e20447dcf5406a38c06bf2da3"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/index.md",
+      "dest": "references/raw/api/web_components/index.md",
+      "title": "Embed data and visualizations in your own website",
+      "sha256": "4d292bf1b520d11adbd4e0339db81a4ec856d90138cedd54d0cfcf16ecdcf744"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/line.md",
+      "dest": "references/raw/api/web_components/line.md",
+      "title": "Line chart",
+      "sha256": "5e69566a23f3c1ed8afcbec0bad2585a798d2b92cbb0aef416474313ecfe9a77"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/map.md",
+      "dest": "references/raw/api/web_components/map.md",
+      "title": "Map chart",
+      "sha256": "b8aa6f6af64ec1704479e28dcf4e2fabd38ee4cd650da0bc1cdb1c0ee7a68e6b"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/pie.md",
+      "dest": "references/raw/api/web_components/pie.md",
+      "title": "Pie chart",
+      "sha256": "337898209656c290b5837bf6d33f235f1d5dc6e4a9eed40dc1fd860f0eb5e834"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/ranking.md",
+      "dest": "references/raw/api/web_components/ranking.md",
+      "title": "Ranking chart",
+      "sha256": "f9b82409c2a726335a375e2cc8091aa8f4af8b71a02977e4bf177f3b9c7bfcea"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/scatter.md",
+      "dest": "references/raw/api/web_components/scatter.md",
+      "title": "Scatter plot",
+      "sha256": "9f3e7f22da81840c1db7ee9d2b2240a715505c35919388a8babfe2c3c17d0dd1"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/slider.md",
+      "dest": "references/raw/api/web_components/slider.md",
+      "title": "Slider control",
+      "sha256": "39d948f620dd952f199466b1f43e3a1494dec21f6e94897230ef20e33d7dbcd4"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/index.md",
+      "dest": "references/raw/bigquery/index.md",
+      "title": "Query with SQL/BigQuery",
+      "sha256": "23238d3739d9724b38a12c07060277d8cf49e2ef70f15f145f9e9d5e7de0e70f"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/query_join_your_data.md",
+      "dest": "references/raw/bigquery/query_join_your_data.md",
+      "title": "Join with external data",
+      "sha256": "e7778f484fe6bfc1490a1fa90f31a37bbc79d0183ee7de2d3f870c72c963dc0a"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/query_more_complex.md",
+      "dest": "references/raw/bigquery/query_more_complex.md",
+      "title": "More complex queries",
+      "sha256": "298cafdd16f3ed480a911d86869e2a60c44b77a97f7fa7e681d98f6276e6a562"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/query_places.md",
+      "dest": "references/raw/bigquery/query_places.md",
+      "title": "Query places",
+      "sha256": "5aa2885328ac7676c7e2ddb31386fb188c045241bf0b7f16f8bc339ed4c576b9"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/query_property_places.md",
+      "dest": "references/raw/bigquery/query_property_places.md",
+      "title": "Query observations and properties of places",
+      "sha256": "0dc71b37f568567b0c35ff855b91789730787e6a8313f4ca747803d77e129a2a"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/advanced.md",
+      "dest": "references/raw/custom_dc/advanced.md",
+      "title": "Advanced (hybrid) setups",
+      "sha256": "c2228fdf52bb3f70327f78db394e3b4977ce702202ecf30cb0eaad6f7c926a57"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/build_image.md",
+      "dest": "references/raw/custom_dc/build_image.md",
+      "title": "Build and run a custom image",
+      "sha256": "65c2d73f8570c2fce2529551d52be831c4978078a19c664fed105bf8ee86d0d1"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/config.md",
+      "dest": "references/raw/custom_dc/config.md",
+      "title": "Data config file reference",
+      "sha256": "98930686582522c11bf22be87014a6d6e2ba4d73f5a0dbb080be5705600697ad"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/custom_data.md",
+      "dest": "references/raw/custom_dc/custom_data.md",
+      "title": "Prepare and load your own data",
+      "sha256": "d65b155df10ee075d4d1c24690f540801cc7b540acc71e80c12c5c01a33468b9"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/custom_entities.md",
+      "dest": "references/raw/custom_dc/custom_entities.md",
+      "title": "Define custom entities",
+      "sha256": "7b3e5d07685e62de4736991fe17e9b484adeec5c9b7a2543ca2ce9cdc0c0e91e"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/custom_ui.md",
+      "dest": "references/raw/custom_dc/custom_ui.md",
+      "title": "Customize the site",
+      "sha256": "2b7e34f9510f4946cece4a1a85519bf54d41a0d6c8837ef65b826d3cc593f97a"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/deploy_cloud.md",
+      "dest": "references/raw/custom_dc/deploy_cloud.md",
+      "title": "Deploy to Google Cloud",
+      "sha256": "7f9f8ba0519aba7bb5607937c0578f84693ae7e83410f2e99e471183d636518e"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/faq.md",
+      "dest": "references/raw/custom_dc/faq.md",
+      "title": "Frequently asked questions",
+      "sha256": "7ac6795e732499f44296f502fbbd3b7ec6905e4645b8b6c18f9ce0bcce330941"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/index.md",
+      "dest": "references/raw/custom_dc/index.md",
+      "title": "Build your own Data Commons",
+      "sha256": "0de8d4056d36ee076ab38dbba79e49dd599f7cad7f8b37267686e3492f31e3d3"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/launch_cloud.md",
+      "dest": "references/raw/custom_dc/launch_cloud.md",
+      "title": "Launch your Data Commons",
+      "sha256": "158cd5a55ed34e3f3a5f02d699ae07e6f9adbc3cfacffa0af7a51e4de529e220"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/quickstart.md",
+      "dest": "references/raw/custom_dc/quickstart.md",
+      "title": "Quickstart",
+      "sha256": "22dfdccc356a794d7fc14973704284d932943c715ed48ef6fa2cf335ee8d75c4"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/run_mcp_tools.md",
+      "dest": "references/raw/custom_dc/run_mcp_tools.md",
+      "title": "Run MCP tools",
+      "sha256": "e67d42bd21389ac0179a3879d50b918b63bb6e808959b4f114d25965dbdf0d0a"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/troubleshooting.md",
+      "dest": "references/raw/custom_dc/troubleshooting.md",
+      "title": "Troubleshooting",
+      "sha256": "584923d295d23c453309b4153c24b297eabeb8200a8b69868ad7b7a84f89b1ee"
+    },
+    {
+      "scenario": "core",
+      "source": "data_model.md",
+      "dest": "references/raw/data_model.md",
+      "title": "Key concepts and common tasks",
+      "sha256": "5761cd3a65b5014daf934ec8bb9fee268f773b10a6f21a70562dcba6ddf17605"
+    },
+    {
+      "scenario": "core",
+      "source": "glossary.md",
+      "dest": "references/raw/glossary.md",
+      "title": "Glossary",
+      "sha256": "b5268f28f710cc0ece8b26d03c4c0b9c8b414cf5fe5b54f9d396c916bd868a39"
+    },
+    {
+      "scenario": "core",
+      "source": "index.md",
+      "dest": "references/raw/index.md",
+      "title": "How to use Data Commons",
+      "sha256": "edb8f821790356cbdfb5bdb02aeb652e0eda50e31d703426c1890d9f424d9158"
+    },
+    {
+      "scenario": "mcp",
+      "source": "mcp/host_server.md",
+      "dest": "references/raw/mcp/host_server.md",
+      "title": "Run an MCP Server",
+      "sha256": "4afb7dc81de9d9a17a536d82edc517bc3239b33112b0ac2ecfb5a731368b6d1f"
+    },
+    {
+      "scenario": "mcp",
+      "source": "mcp/index.md",
+      "dest": "references/raw/mcp/index.md",
+      "title": "MCP - Query data interactively with an AI agent",
+      "sha256": "bd5caf99262e7cc3e324b049c0ccd5f112b04c47211e43b37258d7cf200ed177"
+    },
+    {
+      "scenario": "mcp",
+      "source": "mcp/run_tools.md",
+      "dest": "references/raw/mcp/run_tools.md",
+      "title": "Use MCP tools",
+      "sha256": "668182ce801b8f85a445eee8ab3bf935beac89180702bbd5daa292611b5c1f58"
+    },
+    {
+      "scenario": "core",
+      "source": "place_types.md",
+      "dest": "references/raw/place_types.md",
+      "title": "Place types",
+      "sha256": "b3afff61573fd5ba6f598aa765a081bd8895b960564f1fa5a206a568114d1289"
+    },
+    {
+      "scenario": "core",
+      "source": "statistical_variables.md",
+      "dest": "references/raw/statistical_variables.md",
+      "title": "Statistical Variable Explorer",
+      "sha256": "ab9c03c19ab9b9c519a96ffb8ee23718d3390d7852d538c7514c2dc21ed4ccbb"
+    },
+    {
+      "scenario": "core",
+      "source": "what_is.md",
+      "dest": "references/raw/what_is.md",
+      "title": "What is Data Commons?",
+      "sha256": "bb5c20ed17596867c324e7a436296292a479ea1801c6474fbb6f276c6fa9fa5f"
+    }
+  ]
+}

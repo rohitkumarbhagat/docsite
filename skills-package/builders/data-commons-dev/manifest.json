@@ -1,0 +1,367 @@
+{
+  "version": 1,
+  "skill_name": "data-commons-dev",
+  "raw_root": "references/raw",
+  "authoritative_index": "references/scenario-index.md",
+  "agentic_index": "references/scenario-guide.md",
+  "scenarios": [
+    {
+      "id": "core",
+      "title": "Core Concepts",
+      "description": "Foundational Data Commons concepts, identifiers, schema, and graph model.",
+      "routing_note": "Start here when an API, MCP, or custom-instance answer depends on shared concepts such as DCIDs, places, statistical variables, observations, or provenance."
+    },
+    {
+      "id": "api",
+      "title": "API Clients and Integrations",
+      "description": "REST and Python APIs plus Google Sheets and Web Components integrations.",
+      "routing_note": "Prefer REST V2 and Python V2 by default. Use V1 only when the user explicitly asks for legacy behavior."
+    },
+    {
+      "id": "bigquery",
+      "title": "BigQuery",
+      "description": "SQL access patterns for querying Data Commons in BigQuery.",
+      "routing_note": "Use this scenario for SQL, joining external data, or place-property query patterns."
+    },
+    {
+      "id": "mcp",
+      "title": "MCP",
+      "description": "Hosted and self-hosted MCP guidance for base Data Commons.",
+      "routing_note": "Keep this scenario separate from custom-instance MCP guidance unless the user explicitly asks for a comparison."
+    },
+    {
+      "id": "custom_dc",
+      "title": "Custom Data Commons",
+      "description": "Building, configuring, deploying, and operating Custom Data Commons instances.",
+      "routing_note": "Use this scenario for custom data loading, deployment, UI customization, and custom-instance MCP behavior."
+    }
+  ],
+  "entries": [
+    {
+      "scenario": "core",
+      "source": "data_model.md",
+      "dest": "data_model.md"
+    },
+    {
+      "scenario": "core",
+      "source": "glossary.md",
+      "dest": "glossary.md"
+    },
+    {
+      "scenario": "core",
+      "source": "index.md",
+      "dest": "index.md"
+    },
+    {
+      "scenario": "core",
+      "source": "place_types.md",
+      "dest": "place_types.md"
+    },
+    {
+      "scenario": "core",
+      "source": "statistical_variables.md",
+      "dest": "statistical_variables.md",
+      "title": "Statistical Variable Explorer"
+    },
+    {
+      "scenario": "core",
+      "source": "what_is.md",
+      "dest": "what_is.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/index.md",
+      "dest": "api/index.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/api_key.md",
+      "dest": "api/python/api_key.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/index.md",
+      "dest": "api/python/index.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/index.md",
+      "dest": "api/python/v2/index.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/migration.md",
+      "dest": "api/python/v2/migration.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/node.md",
+      "dest": "api/python/v2/node.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/observation.md",
+      "dest": "api/python/v2/observation.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/pandas.md",
+      "dest": "api/python/v2/pandas.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/resolve.md",
+      "dest": "api/python/v2/resolve.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/python/v2/tutorials.md",
+      "dest": "api/python/v2/tutorials.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/index.md",
+      "dest": "api/rest/v2/index.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/migration.md",
+      "dest": "api/rest/v2/migration.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/node.md",
+      "dest": "api/rest/v2/node.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/observation.md",
+      "dest": "api/rest/v2/observation.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/resolve.md",
+      "dest": "api/rest/v2/resolve.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/rest/v2/troubleshooting.md",
+      "dest": "api/rest/v2/troubleshooting.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/get_name.md",
+      "dest": "api/sheets/get_name.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/get_property.md",
+      "dest": "api/sheets/get_property.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/get_variable.md",
+      "dest": "api/sheets/get_variable.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/index.md",
+      "dest": "api/sheets/index.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/places_in.md",
+      "dest": "api/sheets/places_in.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/tutorials/index.md",
+      "dest": "api/sheets/tutorials/index.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/tutorials/sheets_covid.md",
+      "dest": "api/sheets/tutorials/sheets_covid.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/sheets/tutorials/sheets_latitude.md",
+      "dest": "api/sheets/tutorials/sheets_latitude.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/bar.md",
+      "dest": "api/web_components/bar.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/examples/all-charts.md",
+      "dest": "api/web_components/examples/all-charts.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/examples/dynamic-map.md",
+      "dest": "api/web_components/examples/dynamic-map.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/examples/line-chart.md",
+      "dest": "api/web_components/examples/line-chart.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/examples/map-styles.md",
+      "dest": "api/web_components/examples/map-styles.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/gauge.md",
+      "dest": "api/web_components/gauge.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/highlight.md",
+      "dest": "api/web_components/highlight.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/index.md",
+      "dest": "api/web_components/index.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/line.md",
+      "dest": "api/web_components/line.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/map.md",
+      "dest": "api/web_components/map.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/pie.md",
+      "dest": "api/web_components/pie.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/ranking.md",
+      "dest": "api/web_components/ranking.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/scatter.md",
+      "dest": "api/web_components/scatter.md"
+    },
+    {
+      "scenario": "api",
+      "source": "api/web_components/slider.md",
+      "dest": "api/web_components/slider.md"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/index.md",
+      "dest": "bigquery/index.md"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/query_join_your_data.md",
+      "dest": "bigquery/query_join_your_data.md"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/query_more_complex.md",
+      "dest": "bigquery/query_more_complex.md"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/query_places.md",
+      "dest": "bigquery/query_places.md"
+    },
+    {
+      "scenario": "bigquery",
+      "source": "bigquery/query_property_places.md",
+      "dest": "bigquery/query_property_places.md"
+    },
+    {
+      "scenario": "mcp",
+      "source": "mcp/host_server.md",
+      "dest": "mcp/host_server.md"
+    },
+    {
+      "scenario": "mcp",
+      "source": "mcp/index.md",
+      "dest": "mcp/index.md"
+    },
+    {
+      "scenario": "mcp",
+      "source": "mcp/run_tools.md",
+      "dest": "mcp/run_tools.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/advanced.md",
+      "dest": "custom_dc/advanced.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/build_image.md",
+      "dest": "custom_dc/build_image.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/config.md",
+      "dest": "custom_dc/config.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/custom_data.md",
+      "dest": "custom_dc/custom_data.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/custom_entities.md",
+      "dest": "custom_dc/custom_entities.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/custom_ui.md",
+      "dest": "custom_dc/custom_ui.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/deploy_cloud.md",
+      "dest": "custom_dc/deploy_cloud.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/faq.md",
+      "dest": "custom_dc/faq.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/index.md",
+      "dest": "custom_dc/index.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/launch_cloud.md",
+      "dest": "custom_dc/launch_cloud.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/quickstart.md",
+      "dest": "custom_dc/quickstart.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/run_mcp_tools.md",
+      "dest": "custom_dc/run_mcp_tools.md"
+    },
+    {
+      "scenario": "custom_dc",
+      "source": "custom_dc/troubleshooting.md",
+      "dest": "custom_dc/troubleshooting.md"
+    }
+  ]
+}
