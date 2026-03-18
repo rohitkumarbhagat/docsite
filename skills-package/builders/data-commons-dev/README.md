@@ -38,32 +38,6 @@ The tool is deterministic:
 - no timestamps or random identifiers
 - unchanged output files are left byte-for-byte intact
 
-## Optional Agentic Index
-
-You can optionally generate a supplemental scenario guide after the deterministic
-sync:
-
-```bash
-python3 skills-package/builders/data-commons-dev/update_snapshot.py \
-  --agentic-index \
-  --agentic-command 'your-command-here'
-```
-
-Rules for the optional agentic step:
-
-- it may write `references/scenario-guide.md`
-- it must not rewrite raw mirrored docs
-- it must not rewrite `sources.lock.json`
-- `references/scenario-index.md` remains the authoritative routing file
-
-The command receives these environment variables:
-
-- `DATA_COMMONS_DEV_BUILDER_ROOT`
-- `DATA_COMMONS_DEV_SKILL_ROOT`
-- `DATA_COMMONS_DEV_MANIFEST_PATH`
-- `DATA_COMMONS_DEV_SCENARIO_INDEX_PATH`
-- `DATA_COMMONS_DEV_SCENARIO_GUIDE_PATH`
-
 ## Markdown Handling
 
 The builder does not convert Kramdown/Jekyll Markdown in v1. It copies the

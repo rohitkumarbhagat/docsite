@@ -3,7 +3,6 @@
   "skill_name": "data-commons-dev",
   "raw_root": "references/raw",
   "authoritative_index": "references/scenario-index.md",
-  "agentic_index": "references/scenario-guide.md",
   "scenarios": [
     {
       "id": "core",

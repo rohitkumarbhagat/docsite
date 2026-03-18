@@ -6,7 +6,6 @@ import hashlib
 import json
 import os
 import re
-import subprocess
 import sys
 from pathlib import Path
 
@@ -30,18 +29,6 @@ def parse_args():
     parser.add_argument(
         "--manifest",
         help="Path to the manifest JSON. Defaults to <builder-root>/manifest.json.",
-    )
-    parser.add_argument(
-        "--agentic-index",
-        action="store_true",
-        help="Regenerate references/scenario-guide.md using an external command after the deterministic sync.",
-    )
-    parser.add_argument(
-        "--agentic-command",
-        help=(
-            "Shell command that writes the agentic scenario guide to stdout. "
-            "If omitted, DATA_COMMONS_DEV_AGENTIC_INDEX_COMMAND is used."
-        ),
     )
     return parser.parse_args()
 
@@ -223,39 +210,6 @@ def sync_snapshot(builder_root, skill_root, source_root, manifest_path):
     return manifest, stats, index_status, lock_status
 
 
-def run_agentic_index(builder_root, skill_root, manifest, manifest_path, command):
-    guide_path = skill_root / manifest["agentic_index"]
-    scenario_index_path = skill_root / manifest["authoritative_index"]
-    env = os.environ.copy()
-    env["DATA_COMMONS_DEV_BUILDER_ROOT"] = str(builder_root)
-    env["DATA_COMMONS_DEV_SKILL_ROOT"] = str(skill_root)
-    env["DATA_COMMONS_DEV_MANIFEST_PATH"] = str(manifest_path)
-    env["DATA_COMMONS_DEV_SCENARIO_INDEX_PATH"] = str(scenario_index_path)
-    env["DATA_COMMONS_DEV_SCENARIO_GUIDE_PATH"] = str(guide_path)
-
-    result = subprocess.run(
-        command,
-        shell=True,
-        cwd=skill_root,
-        env=env,
-        capture_output=True,
-        text=True,
-        check=False,
-    )
-    if result.returncode != 0:
-        raise RuntimeError(
-            "agentic index command failed with exit code "
-            f"{result.returncode}:\n{result.stderr.strip()}"
-        )
-
-    guide_text = result.stdout
-    if not guide_text.strip():
-        raise RuntimeError("agentic index command produced empty output")
-    if not guide_text.endswith("\n"):
-        guide_text += "\n"
-    return write_text_if_changed(guide_path, guide_text)
-
-
 def main():
     args = parse_args()
     builder_root = Path(args.builder_root).resolve() if args.builder_root else Path(__file__).resolve().parent
@@ -278,15 +232,6 @@ def main():
     )
     print(f"scenario-index: {index_status}")
     print(f"sources.lock.json: {lock_status}")
-
-    if args.agentic_index:
-        command = args.agentic_command or os.environ.get("DATA_COMMONS_DEV_AGENTIC_INDEX_COMMAND")
-        if not command:
-            raise RuntimeError(
-                "--agentic-index requires --agentic-command or DATA_COMMONS_DEV_AGENTIC_INDEX_COMMAND"
-            )
-        guide_status = run_agentic_index(builder_root, skill_root, manifest, manifest_path, command)
-        print(f"scenario-guide: {guide_status}")
 
 
 if __name__ == "__main__":
