@@ -1,0 +1,29 @@
+name: Check llms.txt coverage
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "llms.txt"
+      - "scripts/**"
+      - ".github/workflows/llms-check.yml"
+  push:
+    branches: ["master"]
+    paths:
+      - "**/*.md"
+      - "llms.txt"
+      - "scripts/**"
+      - ".github/workflows/llms-check.yml"
+
+jobs:
+  check-llms:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: "3.4"
+      - name: Check llms.txt
+        run: ruby scripts/check_llms_txt.rb

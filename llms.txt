@@ -1,0 +1,99 @@
+# Data Commons Docs
+
+> Data Commons Documentation. This file routes agents to the freshest authoritative docs for APIs, MCP, custom deployments, SQL, and reference material.
+
+Links below point to GitHub raw Markdown on `master` for the freshest agent-readable content.
+
+Use `Query Data With Agents` for MCP setup, hosted MCP usage, Gemini CLI integration, or self-hosted MCP.
+Use `Query Data Programmatically` for REST, Python, Pandas, Sheets, Web Components, and BigQuery.
+Use `Build A Custom Data Commons` for deployment, config, imports, and custom instance tooling.
+Use `Reference And Data Coverage` for concepts, glossary, datasets, and background material.
+
+## Start Here
+
+- [How to use Data Commons](https://raw.githubusercontent.com/datacommonsorg/docsite/master/index.md): Use when the user is not sure which Data Commons surface to start with.
+- [What is Data Commons?](https://raw.githubusercontent.com/datacommonsorg/docsite/master/what_is.md): Use when the user needs a conceptual introduction to Data Commons.
+- [Get support](https://raw.githubusercontent.com/datacommonsorg/docsite/master/support.md): Use when the user needs support channels or feedback paths.
+
+## Query Data With Agents
+
+- [MCP - Query data interactively with an AI agent](https://raw.githubusercontent.com/datacommonsorg/docsite/master/mcp/index.md): Use when the user asks what the Data Commons MCP is or whether agents can query Data Commons.
+- [Use MCP tools](https://raw.githubusercontent.com/datacommonsorg/docsite/master/mcp/run_tools.md): Use when the user wants to connect Gemini CLI or another MCP-capable agent to the hosted Data Commons MCP.
+- [Run an MCP Server](https://raw.githubusercontent.com/datacommonsorg/docsite/master/mcp/host_server.md): Use when the user wants to self-host the MCP server or connect a custom client.
+
+## Query Data Programmatically
+
+- [API - Query data programmatically](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/index.md): Use when the user wants a programmatic integration overview.
+- [Get statistical observations](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/rest/v2/observation.md): Use when the user needs REST calls for observations or time series.
+- [Resolve entities](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/rest/v2/resolve.md): Use when the user needs entity resolution.
+- [Python (V2)](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/python/v2/index.md): Use when the user wants Python client usage.
+- [Query with SQL/BigQuery](https://raw.githubusercontent.com/datacommonsorg/docsite/master/bigquery/index.md): Use when the user wants SQL analytics over Data Commons data.
+- [REST (V2)](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/rest/v2/index.md): Use when the user needs REST API guidance for REST (V2).
+- [Python (V1)](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/python/index.md): Use when the user needs Python client guidance for Python (V1).
+- [Analyze data with Google Sheets](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/sheets/index.md): Use when the user needs Google Sheets integration guidance for Analyze data with Google Sheets.
+- [Tutorials](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/sheets/tutorials/index.md): Use when the user needs Google Sheets integration guidance for Tutorials.
+- [Embed data and visualizations in your own website](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/index.md): Use when the user needs web component integration guidance for Embed data and visualizations in your own website.
+- [Bar chart](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/bar.md): Use when the user needs web component integration guidance for Bar chart.
+- [Query places](https://raw.githubusercontent.com/datacommonsorg/docsite/master/bigquery/query_places.md): Use when the user needs SQL or BigQuery guidance for Query places.
+- [Gauge chart](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/gauge.md): Use when the user needs web component integration guidance for Gauge chart.
+- [Query observations and properties of places](https://raw.githubusercontent.com/datacommonsorg/docsite/master/bigquery/query_property_places.md): Use when the user needs SQL or BigQuery guidance for Query observations and properties of places.
+- [Tutorials](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/python/v2/tutorials.md): Use when the user needs Python client guidance for Tutorials.
+- [Get node properties](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/rest/v2/node.md): Use when the user needs REST API guidance for Get node properties.
+- [Get statistical observations](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/python/v2/observation.md): Use when the user needs Python client guidance for Get statistical observations.
+- [Highlight tile](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/highlight.md): Use when the user needs web component integration guidance for Highlight tile.
+- [More complex queries](https://raw.githubusercontent.com/datacommonsorg/docsite/master/bigquery/query_more_complex.md): Use when the user needs SQL or BigQuery guidance for More complex queries.
+- [Get statistical observations as Pandas DataFrames](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/python/v2/pandas.md): Use when the user needs Python client guidance for Get statistical observations as Pandas DataFrames.
+- [Join with external data](https://raw.githubusercontent.com/datacommonsorg/docsite/master/bigquery/query_join_your_data.md): Use when the user needs SQL or BigQuery guidance for Join with external data.
+- [Line chart](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/line.md): Use when the user needs web component integration guidance for Line chart.
+- [Get node properties](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/python/v2/node.md): Use when the user needs Python client guidance for Get node properties.
+- [Map chart](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/map.md): Use when the user needs web component integration guidance for Map chart.
+- [Pie chart](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/pie.md): Use when the user needs web component integration guidance for Pie chart.
+- [Resolve entities](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/python/v2/resolve.md): Use when the user needs Python client guidance for Resolve entities.
+- [Troubleshooting](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/rest/v2/troubleshooting.md): Use when the user needs REST API guidance for Troubleshooting.
+- [Migrate from V1 to V2](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/python/v2/migration.md): Use when the user needs Python client guidance for Migrate from V1 to V2.
+- [Migrate from V1 to V2](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/rest/v2/migration.md): Use when the user needs REST API guidance for Migrate from V1 to V2.
+- [Ranking chart](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/ranking.md): Use when the user needs web component integration guidance for Ranking chart.
+- [Scatter plot](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/scatter.md): Use when the user needs web component integration guidance for Scatter plot.
+- [Slider control](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/web_components/slider.md): Use when the user needs web component integration guidance for Slider control.
+- [Get names associated with DCIDs](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/sheets/get_name.md): Use when the user needs Google Sheets integration guidance for Get names associated with DCIDs.
+- [Get places contained in another place](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/sheets/places_in.md): Use when the user needs Google Sheets integration guidance for Get places contained in another place.
+- [Get statistical variable values](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/sheets/get_variable.md): Use when the user needs Google Sheets integration guidance for Get statistical variable values.
+- [Get node property values](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/sheets/get_property.md): Use when the user needs Google Sheets integration guidance for Get node property values.
+- [Sheets COVID-19 analysis](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/sheets/tutorials/sheets_covid.md): Use when the user needs Google Sheets integration guidance for Sheets COVID-19 analysis.
+- [Sheets South American latitudes](https://raw.githubusercontent.com/datacommonsorg/docsite/master/api/sheets/tutorials/sheets_latitude.md): Use when the user needs Google Sheets integration guidance for Sheets South American latitudes.
+
+## Build A Custom Data Commons
+
+- [Quickstart](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/quickstart.md): Use when the user wants to stand up a custom instance quickly.
+- [Run MCP tools](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/run_mcp_tools.md): Use when the user wants MCP against a Custom Data Commons instance.
+- [Build your own Data Commons](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/index.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Data Imports](https://raw.githubusercontent.com/datacommonsorg/docsite/master/import_dataset/index.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Prepare and load your own data](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/custom_data.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Define custom entities](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/custom_entities.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Data config file reference](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/config.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Customize the site](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/custom_ui.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Build and run a custom image](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/build_image.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Deploy to Google Cloud](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/deploy_cloud.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Launch your Data Commons](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/launch_cloud.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Advanced (hybrid) setups](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/advanced.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Troubleshooting](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/troubleshooting.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Frequently asked questions](https://raw.githubusercontent.com/datacommonsorg/docsite/master/custom_dc/faq.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+- [Data Commons Schema-less Guide](https://raw.githubusercontent.com/datacommonsorg/docsite/master/import_dataset/schema_less_guide.md): Use when the user is deploying, configuring, or extending a custom Data Commons instance.
+
+## Reference And Data Coverage
+
+- [Glossary](https://raw.githubusercontent.com/datacommonsorg/docsite/master/glossary.md): Use when the user needs Data Commons terminology.
+- [Data coverage](https://raw.githubusercontent.com/datacommonsorg/docsite/master/datasets/index.md): Use when the user needs concepts, background, or data coverage details.
+- [Key concepts and common tasks](https://raw.githubusercontent.com/datacommonsorg/docsite/master/data_model.md): Use when the user needs concepts, background, or data coverage details.
+- [Place types](https://raw.githubusercontent.com/datacommonsorg/docsite/master/place_types.md): Use when the user needs concepts, background, or data coverage details.
+
+## Optional
+
+- [Papers](https://raw.githubusercontent.com/datacommonsorg/docsite/master/papers/index.md): Use when the user needs supplemental learning material or secondary reference content.
+- [Educational materials](https://raw.githubusercontent.com/datacommonsorg/docsite/master/courseware/index.md): Use when the user needs supplemental learning material or secondary reference content.
+- [Data literacy with Data Commons](https://raw.githubusercontent.com/datacommonsorg/docsite/master/courseware/data_literacy/index.md): Use when the user needs supplemental learning material or secondary reference content.
+- [Additional resources](https://raw.githubusercontent.com/datacommonsorg/docsite/master/resources.md): Use when the user needs supplemental learning material or secondary reference content.
+- [Introduction to data science](https://raw.githubusercontent.com/datacommonsorg/docsite/master/courseware/intro_data_science.md): Use when the user needs supplemental learning material or secondary reference content.
+- [How to use the course materials](https://raw.githubusercontent.com/datacommonsorg/docsite/master/courseware/data_literacy/how_to_use.md): Use when the user needs supplemental learning material or secondary reference content.
+- [Key themes](https://raw.githubusercontent.com/datacommonsorg/docsite/master/courseware/data_literacy/key_themes.md): Use when the user needs supplemental learning material or secondary reference content.
+- [Modules](https://raw.githubusercontent.com/datacommonsorg/docsite/master/courseware/data_literacy/modules.md): Use when the user needs supplemental learning material or secondary reference content.

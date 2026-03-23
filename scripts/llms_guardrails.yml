@@ -1,0 +1,18 @@
+# Files or prefixes excluded from llms consideration entirely.
+ignored_files:
+  - AGENTS.md
+  - CONTRIBUTING.md
+  - README.md
+  - STYLE_GUIDE.md
+
+excluded_prefixes:
+  - _posts/
+  - contributing/
+  - vendor/
+  - scripts/
+  - api/web_components/examples/
+
+# Paths are repo-relative prefixes.
+# Pages under these prefixes are forbidden from appearing in llms.txt unless
+# the page explicitly sets `llms: include` in front matter.
+ignored_prefixes: []
